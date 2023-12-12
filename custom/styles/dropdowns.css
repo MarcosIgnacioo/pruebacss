@@ -1,0 +1,97 @@
+
+#og_price{
+  color: #FE285C;
+  text-decoration: line-through;
+  margin-right: 15px;
+}
+#dis_price{
+  font-size: 1.2rem;
+}
+.menu-head {
+  display: flex;
+  align-items: center;
+}
+
+.deals_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.deals_button {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  width: 50px;
+  height: auto;
+  transform: var(--rotate, 0);
+  transition: .2s
+}
+
+.dropdown_title:has( :checked) {
+  --rows: 0fr;
+  --rotate: rotate(360deg);
+}
+.dropdown_title{
+  --rotate: rotate(180deg);
+}
+.dropdown_check {
+  position: absolute;
+  width: 30rem;
+  /*Meter a un media query que esto sea 100% cuando sea movil y dejarlo en 15% cuando sea desktop*/
+  height: 5rem;
+  cursor: pointer;
+  opacity: 0;
+}
+#deal_title{
+  padding: 4%;
+  text-align: center;
+  background-color:#7aa23f;
+  border-radius: 15px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(52, 55, 52, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dropdown_content {
+  margin-top: 0;
+  display: grid;
+  animation: 3s linear .1s colorIt;
+  transition: .7s grid-template-rows;
+  grid-template-rows: var(--rows, 1fr);
+}
+
+.dropdown_sub {
+  overflow: hidden;
+}
+
+.dish_container{
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  margin: 15px 0 15px 0;
+}
+
+.dish_container img {
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+.dropdown_title{
+  --rotate: rotate(360deg);
+}
+.dropdown_content {
+  grid-template-rows: var(--rows, 0fr);
+  }
+
+.dropdown_title:has( :checked) {
+  --rows: 1fr;
+  --rotate: rotate(180deg);
+}
+}
+
+

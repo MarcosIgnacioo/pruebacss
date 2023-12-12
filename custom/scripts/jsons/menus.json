@@ -1,0 +1,92 @@
+{
+  "menu": [
+    {
+      "categoria": "Sandwiches",
+      "platos": [
+        {
+          "nombre": "Reuben",
+          "precio": "$190.00",
+          "descripcion": "Pan de centeno, corned beef hecho en casa, queso suizo, sauerkraut, aderezo mil islas.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Turkey Fitness",
+          "precio": "$185.00",
+          "descripcion": "Pan de centeno, pechuga de pavo horneado natural, queso mozzarella fresco ovoline, espinacas, cebolla morada, aguacate, tomate, peperoncino, mayo con mostaza.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Chicken Club",
+          "precio": "$175.00",
+          "descripcion": "Pan Sourdough, pechuga de pollo rebanada, tocino applewood, queso pepper jack, roast beef, cebolla morada, mix de lechugas, tomate, mayo mostaza.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Manchego",
+          "precio": "$185.00",
+          "descripcion": "Ciabatta, queso manchego, queso pepper jack, roast beef, cebolla morada, mix de lechugas, tomate, mayo mostaza.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "BLT-A",
+          "precio": "$150.00",
+          "descripcion": "Pan Sourdough, tocino applewood, queso amarillo americano, mix de lechugas orgánicas, tomate, aguacate.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Tuna Melt",
+          "precio": "$170.00",
+          "descripcion": "Pan Sourdough, queso crema, queso cheddar, ensalada de atún albacore con pepperoncino, tomate, mayo con mostaza antigua.",
+          "enlace": "shop-style-2.html"
+        }
+      ]
+    },
+    {
+      "categoria": "Ensaladas",
+      "platos": [
+        {
+          "nombre": "Asian Salad",
+          "precio": "$150.00",
+          "descripcion": "Mix de lechugas orgánicas, jamón black forest, col morado, tomate cherry, pepino persa, supremas de mandarina, ajonjolí.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Giorgio Salad",
+          "precio": "$195.00",
+          "descripcion": "Mix de lechugas orgánicas, prosciutto, alcachofa, arúgula, pepino persa, aceitunas kalamata, gorgonzola, glaze de balsámico.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "California Salad",
+          "precio": "$160.00",
+          "descripcion": "Mix de lechugas con espinacas orgánicas, pechuga de pavo, mozzarella fresco, tomate cherry, aguacate, cebolla morada, aderezo chipotle ranch.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Margot Salad",
+          "precio": "$180.00",
+          "descripcion": "Mix de lechugas con arúgula orgánica, jambon de paris, queso brie, manzana verde, almendra caramelizada, vinagreta de frambuesa y nuez.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Greek Salad",
+          "precio": "$170.00",
+          "descripcion": "Mix de lechugas orgánicas, queso feta, pechuga de pollo, aceituna kalamata, pepino persa, tomate cherry, tzatziki griego, aceite extra virgen.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Italian Wrap",
+          "precio": "$150.00",
+          "descripcion": "Tortilla de tomate deshidratado, pepperoni, salami genoa, mozzarella fresco, aceitunas kalamata, tomate cherry, pepino persa, pimiento rostizado, cebolla morada, aderezo italiano.",
+          "enlace": "shop-style-2.html"
+        },
+        {
+          "nombre": "Cesar Wrap",
+          "precio": "$150.00",
+          "descripcion": "Tortilla de tomate deshidratado, pechuga de pollo, mix de lechugas orgánicas, tomate cherry, aguacate, aderezo cesar.",
+          "enlace": "shop-style-2.html"
+        }
+      ]
+    }
+  ]
+}
